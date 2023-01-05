@@ -1,0 +1,51 @@
+body {
+    font-family: Raleway, sans-serif;
+    background-color: rgb(124, 0, 226);
+    color: rgb(255, 255, 255);
+    padding-top: 100px;
+}
+
+main {
+    width: 850px;
+    margin: auto;
+}
+
+#cajas {
+    display: flex;
+}
+
+#cDias,
+#cHoras,
+#cMinutos,
+#cSegundos {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px #999;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+    text-shadow: 0px 3px 3px #333333;
+}
+
+#cDias {
+    background-color: #ff80ce;
+}
+
+#cHoras {
+    background-color: #b9f1ff;
+}
+
+#cMinutos {
+    background-color: #bef8a3;
+}
+
+#cSegundos {
+    background-color: #fcff51;
+}
+
+#txtDias,
+#txtHoras,
+#txtMinutos,
+#txtSegundos {
+    font-size: 5em;
+}
